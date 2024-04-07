@@ -1,0 +1,52 @@
+2024-04-07 11:44:16.143 [DEBU] {5878630f9fe2c31729893b39528cd8ca} [ 26 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 11:44:16.148 [DEBU] {5878630f9fe2c31729893b39528cd8ca} [  4 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 11:44:16.162 [DEBU] {5878630f9fe2c31729893b39528cd8ca} [ 13 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='AAA' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 11:51:25.573 [DEBU] {80abbb0b03e3c317a956aa4f9f49380f} [  5 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 11:51:25.576 [DEBU] {80abbb0b03e3c317a956aa4f9f49380f} [  3 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 11:51:25.577 [DEBU] {80abbb0b03e3c317a956aa4f9f49380f} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 11:52:53.487 [DEBU] {f8da3ba316e3c317f3ea5b45e2857c32} [  4 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 11:52:53.490 [DEBU] {f8da3ba316e3c317f3ea5b45e2857c32} [  3 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 11:52:53.493 [DEBU] {f8da3ba316e3c317f3ea5b45e2857c32} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 12:00:43.722 [DEBU] {3064db0085e3c31763fa4f08ecffda93} [  6 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 12:00:43.726 [DEBU] {3064db0085e3c31763fa4f08ecffda93} [  3 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 12:00:43.730 [DEBU] {3064db0085e3c31763fa4f08ecffda93} [  3 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='aaa' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 12:00:46.900 [DEBU] {783e7dbe85e3c31767fa4f0826eff003} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:12:39.828 [DEBU] {3098c0ec71e7c317358ced0fa8b84f06} [  7 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 13:12:39.832 [DEBU] {3098c0ec71e7c317358ced0fa8b84f06} [  3 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 13:12:39.835 [DEBU] {3098c0ec71e7c317358ced0fa8b84f06} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='aaa' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 13:19:45.412 [DEBU] {304eaf02d5e7c317c1c62d0eb6732597} [  4 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 13:19:45.414 [DEBU] {304eaf02d5e7c317c1c62d0eb6732597} [  2 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 13:19:45.415 [DEBU] {304eaf02d5e7c317c1c62d0eb6732597} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:21:15.539 [DEBU] {d80cf1fee9e7c31755569443742e8767} [  3 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 13:21:15.540 [DEBU] {d80cf1fee9e7c31755569443742e8767} [  1 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 13:21:15.541 [DEBU] {d80cf1fee9e7c31755569443742e8767} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:21:16.938 [DEBU] {60b13d53eae7c3175c569443e7fc5151} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:24:16.621 [DEBU] {70f4db2814e8c317ec6049148882ea5c} [  6 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 13:24:16.624 [DEBU] {70f4db2814e8c317ec6049148882ea5c} [  3 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 13:24:16.627 [DEBU] {70f4db2814e8c317ec6049148882ea5c} [  3 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='aaa' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 13:34:30.177 [DEBU] {30299b03a3e8c317f9604914e8a203c1} [  8 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='aaa' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 13:34:50.319 [DEBU] {30756db3a7e8c317c0b5c03285751889} [  4 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 13:34:50.322 [DEBU] {30756db3a7e8c317c0b5c03285751889} [  3 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 13:34:50.323 [DEBU] {30756db3a7e8c317c0b5c03285751889} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:34:51.734 [DEBU] {7082e308a8e8c317c7b5c032ef1655fe} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:35:17.888 [DEBU] {40dc971faee8c317cab5c0320f51f982} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:35:18.922 [DEBU] {d818715daee8c317cdb5c032b07164c4} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:35:19.658 [DEBU] {e8a03e89aee8c317d0b5c032678a84e7} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:39:54.308 [DEBU] {6074757beee8c317d3b5c0320809685a} [  3 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:39:58.158 [DEBU] {80ae2061efe8c317d6b5c0325a9fdd53} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:25.668 [DEBU] {a05a6ac7f5e8c317b72cda374b93f023} [  3 ms] [default] [sims] [rows:4  ] SHOW TABLES
+2024-04-07 13:40:25.669 [DEBU] {a05a6ac7f5e8c317b72cda374b93f023} [  1 ms] [default] [sims] [rows:9  ] SHOW FULL COLUMNS FROM `sys_user`
+2024-04-07 13:40:25.670 [DEBU] {a05a6ac7f5e8c317b72cda374b93f023} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:30.321 [DEBU] {88be29def6e8c317be2cda371d5d95ae} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:32.530 [DEBU] {e06d1761f7e8c317c12cda372478edf6} [ 14 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:44.165 [DEBU] {f8183c17fae8c317c42cda37ea371112} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:44.665 [DEBU] {a8002735fae8c317c72cda37b335760f} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:53.148 [DEBU] {f069b12efce8c317cb2cda37723d3f40} [  4 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='aaa' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 13:40:55.584 [DEBU] {e0a4f9bffce8c317cf2cda374c4108e1} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:40:57.176 [DEBU] {58d9a71efde8c317d22cda3732bac18c} [  5 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:41:58.068 [DEBU] {f8db234c0be9c317d52cda374a93926c} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:42:31.682 [DEBU] {a0b8b91f13e9c317d82cda37a5385d91} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:42:32.385 [DEBU] {7012d44913e9c317db2cda3702e321fb} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:42:43.318 [DEBU] {f8637bd515e9c317df2cda37bedaf009} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE (`password`='aaa' AND `user_name`='aa') AND `delete_time` IS NULL LIMIT 1
+2024-04-07 13:42:46.652 [DEBU] {f01e1f9c16e9c317e32cda37910cc866} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL
+2024-04-07 13:42:48.148 [DEBU] {c01653f516e9c317e62cda37620fd9ee} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email`,`create_time`,`write_time`,`delete_time` FROM `sys_user` WHERE `delete_time` IS NULL

@@ -1,0 +1,23 @@
+2024-03-20 15:07:23.641 [DEBU] {107282764267be1798f36e168d41693b} [ 40 ms] [default] [sims] [rows:2  ] SHOW TABLES
+2024-03-20 15:07:23.648 [DEBU] {107282764267be1798f36e168d41693b} [  6 ms] [default] [sims] [rows:6  ] SHOW FULL COLUMNS FROM `user`
+2024-03-20 15:07:23.662 [DEBU] {107282764267be1798f36e168d41693b} [ 14 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-20 15:07:25.787 [DEBU] {d800a9f84267be179bf36e162576614e} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:09:32.016 [DEBU] {a842395c6067be1782f92c17d2efaf7b} [  7 ms] [default] [sims] [rows:2  ] SHOW TABLES
+2024-03-20 15:09:32.021 [DEBU] {a842395c6067be1782f92c17d2efaf7b} [  5 ms] [default] [sims] [rows:6  ] SHOW FULL COLUMNS FROM `user`
+2024-03-20 15:09:32.027 [DEBU] {a842395c6067be1782f92c17d2efaf7b} [  5 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-20 15:09:40.599 [DEBU] {c87d095c6267be1786f92c1759c341ab} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:13:16.236 [DEBU] {409dc9909467be1790f92c1732208184} [  7 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-20 15:13:18.190 [DEBU] {f0b496059567be1794f92c170083f643} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:13:31.019 [DEBU] {200e18029867be1797f92c17d64b04bf} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:14:57.012 [DEBU] {88e00007ac67be1704c7997d9cff8c02} [ 14 ms] [default] [sims] [rows:2  ] SHOW TABLES
+2024-03-20 15:14:57.021 [DEBU] {88e00007ac67be1704c7997d9cff8c02} [  5 ms] [default] [sims] [rows:6  ] SHOW FULL COLUMNS FROM `user`
+2024-03-20 15:14:57.028 [DEBU] {88e00007ac67be1704c7997d9cff8c02} [  5 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-20 15:14:59.434 [DEBU] {10180098ac67be1708c7997d53bf9c65} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:16:14.199 [DEBU] {f0366400be67be170fc7997d994a7c2a} [  4 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-20 15:16:16.513 [DEBU] {18f1658abe67be1713c7997da61e7072} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:21:03.145 [DEBU] {3088da460168be171bc7997daebe8778} [  5 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='Aaa' LIMIT 1
+2024-03-20 15:21:09.494 [DEBU] {b07d66c10268be171fc7997d8194fdd1} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:21:27.902 [DEBU] {b88e870a0768be1722c7997d1cc3ee69} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:21:34.636 [DEBU] {78f2e49b0868be1726c7997d76ddb15f} [  4 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-20 15:21:38.484 [DEBU] {385d4c810968be172ac7997dabec38d5} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-20 15:21:54.588 [DEBU] {28184d400d68be172dc7997d86c863e1} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`

@@ -1,0 +1,8 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+      - link:     "mysql:root:odoo@tcp(localhost:3306)/sims"
+        tables:   ""

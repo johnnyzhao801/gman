@@ -1,0 +1,40 @@
+2024-03-26 16:41:38.101 {10190768e243c0178199cf20615a82ad} 200 "POST http localhost:8000 /api/system/login HTTP/1.1" 0.013, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", -1, "", ""
+Stack:
+1. Passport or Password not correct
+   1).  sims/internal/logic/system.(*sSystem).SignIn
+        /Users/zhaoning/storage/sims/internal/logic/system/login.go:47
+   2).  sims/internal/controller/system.(*ControllerV1).Login
+        /Users/zhaoning/storage/sims/internal/controller/system/system_v1_login.go:13
+
+2024-03-26 16:44:20.093 {70a35d1f0844c017abe2ee58096bf18d} 200 "POST http localhost:8000 /api/system/login HTTP/1.1" 0.016, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", -1, "", ""
+Stack:
+1. Passport or Password not correct
+   1).  sims/internal/logic/system.(*sSystem).SignIn
+        /Users/zhaoning/storage/sims/internal/logic/system/login.go:48
+   2).  sims/internal/controller/system.(*ControllerV1).Login
+        /Users/zhaoning/storage/sims/internal/controller/system/system_v1_login.go:13
+
+2024-03-26 16:45:12.837 {d8d9ed661444c017ed69bb43b5579d60} 200 "POST http localhost:8000 /api/system/login HTTP/1.1" 0.020, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", -1, "", ""
+Stack:
+1. Passport or Password not correct
+   1).  sims/internal/logic/system.(*sSystem).SignIn
+        /Users/zhaoning/storage/sims/internal/logic/system/login.go:48
+   2).  sims/internal/controller/system.(*ControllerV1).Login
+        /Users/zhaoning/storage/sims/internal/controller/system/system_v1_login.go:13
+
+2024-03-26 16:45:46.854 {70f301e01644c017ef69bb43163bcbf5} 200 "POST http localhost:8000 /api/system/login HTTP/1.1" 23.416, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", -1, "", ""
+Stack:
+1. Passport or Password not correct
+   1).  sims/internal/logic/system.(*sSystem).SignIn
+        /Users/zhaoning/storage/sims/internal/logic/system/login.go:48
+   2).  sims/internal/controller/system.(*ControllerV1).Login
+        /Users/zhaoning/storage/sims/internal/controller/system/system_v1_login.go:13
+
+2024-03-26 16:46:14.676 {700024cd2244c017f169bb437f33b41a} 200 "POST http localhost:8000 /api/system/login HTTP/1.1" 0.014, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", -1, "", ""
+Stack:
+1. Passport or Password not correct
+   1).  sims/internal/logic/system.(*sSystem).SignIn
+        /Users/zhaoning/storage/sims/internal/logic/system/login.go:48
+   2).  sims/internal/controller/system.(*ControllerV1).Login
+        /Users/zhaoning/storage/sims/internal/controller/system/system_v1_login.go:13
+

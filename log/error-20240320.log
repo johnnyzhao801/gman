@@ -1,0 +1,6 @@
+2024-03-20 13:18:18.310 {2044c3844e61be172078b05d79d516d1} 200 "POST http localhost:8000 /api/system/login HTTP/1.1" 0.000, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0", 58, "Not Implemented", ""
+Stack:
+1. Not Implemented
+   1).  sims/internal/controller/system.(*ControllerV1).Login
+        /Users/zhaoning/storage/sims/internal/controller/system/system_v1_login.go:13
+

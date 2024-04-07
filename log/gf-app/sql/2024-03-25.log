@@ -1,0 +1,66 @@
+2024-03-25 16:31:40.196 [DEBU] {486735a0c2f4bf1744e14e08a253fbd9} [ 22 ms] [default] [sims] [rows:2  ] SHOW TABLES
+2024-03-25 16:31:40.202 [DEBU] {486735a0c2f4bf1744e14e08a253fbd9} [  5 ms] [default] [sims] [rows:6  ] SHOW FULL COLUMNS FROM `user`
+2024-03-25 16:31:40.225 [DEBU] {486735a0c2f4bf1744e14e08a253fbd9} [ 22 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-25 16:31:45.332 [DEBU] {70c2a0d3c3f4bf1747e14e080ee82593} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:46.205 [DEBU] {68799f07c4f4bf174ae14e08bdfba283} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:47.131 [DEBU] {807ae03ec4f4bf174de14e08bd1e4ec2} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:47.599 [DEBU] {108cc35ac4f4bf1750e14e08d23a888b} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:51.220 [DEBU] {48b98532c5f4bf1753e14e08fe3aedb5} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:51.702 [DEBU] {90e94a4fc5f4bf1756e14e08f813b832} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:53.492 [DEBU] {a86ce5b9c5f4bf1759e14e08d751f885} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:53.905 [DEBU] {a8638fd2c5f4bf175ce14e082e263421} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:54.540 [DEBU] {c00875f8c5f4bf175fe14e0817612c2e} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:54.914 [DEBU] {1891c40ec6f4bf1762e14e0878880efb} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:55.590 [DEBU] {80830537c6f4bf1765e14e081a15a687} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:55.956 [DEBU] {1807de4cc6f4bf1768e14e08ba6184ad} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:31:58.076 [DEBU] {40912fcbc6f4bf176be14e08660299a2} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:00.577 [DEBU] {c0b54a60c7f4bf176ee14e087d4ee31f} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:00.944 [DEBU] {68071d76c7f4bf1771e14e08f60caf63} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:01.971 [DEBU] {18fd1bb3c7f4bf1774e14e08417a4a89} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:03.880 [DEBU] {585a2a25c8f4bf1777e14e087ebefe42} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:04.546 [DEBU] {b85ade4cc8f4bf177ae14e08e6d07065} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:05.598 [DEBU] {20f48e8bc8f4bf177de14e080b61069f} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:06.115 [DEBU] {e0d366aac8f4bf1780e14e0888a8f4ab} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:15.326 [DEBU] {c09138cfcaf4bf1783e14e08f2752de5} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:32:16.461 [DEBU] {e8491413cbf4bf1786e14e081df9bc25} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:36:28.089 [DEBU] {18e6dba805f5bf1703234e1d2f5580c4} [  7 ms] [default] [sims] [rows:2  ] SHOW TABLES
+2024-03-25 16:36:28.092 [DEBU] {18e6dba805f5bf1703234e1d2f5580c4} [  3 ms] [default] [sims] [rows:6  ] SHOW FULL COLUMNS FROM `user`
+2024-03-25 16:36:28.095 [DEBU] {18e6dba805f5bf1703234e1d2f5580c4} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`password`,`name`,`user_name`,`phone`,`email` FROM `user` WHERE `password`='aaa' LIMIT 1
+2024-03-25 16:36:30.242 [DEBU] {78e4972906f5bf1707234e1d647794a6} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:36:30.741 [DEBU] {b0c35d4706f5bf170a234e1d97c64778} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:36:31.340 [DEBU] {f8f20d6b06f5bf170d234e1df376a33d} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:36:33.109 [DEBU] {90da7ed406f5bf1710234e1dde94c5ad} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:36:33.626 [DEBU] {a8824ff306f5bf1713234e1da8b2333c} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:36:35.178 [DEBU] {70a1c54f07f5bf1716234e1d60993618} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:29.167 [DEBU] {8819cdd921f5bf1719234e1d4f9382b8} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:29.692 [DEBU] {e80b60f921f5bf171c234e1d841a6a0d} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:31.595 [DEBU] {6061d56a22f5bf171f234e1d2f7c5283} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:32.290 [DEBU] {e03d969322f5bf1722234e1d2760db66} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:34.081 [DEBU] {082cf6fe22f5bf1725234e1d36d7344e} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:34.863 [DEBU] {709b902d23f5bf1728234e1de2e6f890} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:36.116 [DEBU] {c8804e7823f5bf172b234e1dcb97795c} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:36.914 [DEBU] {2083c4a723f5bf172e234e1d37850634} [  2 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:38.201 [DEBU] {a8598cf423f5bf1731234e1dea582a61} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:38.952 [DEBU] {80e5462124f5bf1734234e1df4e27ee8} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:40.251 [DEBU] {282bc56e24f5bf1737234e1dde7f82ce} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:41.165 [DEBU] {a0b9dda424f5bf173a234e1d55342f98} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:43.203 [DEBU] {f0f0b31e25f5bf173d234e1d93d107a6} [  0 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:45.007 [DEBU] {9064398a25f5bf1740234e1dc2353cac} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:38:46.556 [DEBU] {58e48ae625f5bf1743234e1d3267bda5} [  1 ms] [default] [sims] [rows:1  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:39:56.318 [DEBU] {98a2662436f5bf1746234e1d6be1b4c6} [  3 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:39:57.836 [DEBU] {08732f7f36f5bf1749234e1d128ba005} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:39:59.488 [DEBU] {70dba1e136f5bf174c234e1d348ab393} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:40:00.071 [DEBU] {e0d3660437f5bf174f234e1d77a7ae5e} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:40:00.621 [DEBU] {c8062b2537f5bf1752234e1d0db8572d} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:40:01.199 [DEBU] {2814694737f5bf1755234e1d9e8bcd69} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:40:03.475 [DEBU] {10ff3fcf37f5bf1758234e1dcb0cc4a1} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:40:04.040 [DEBU] {e053f9f037f5bf175b234e1d4bb75a24} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:42:54.848 [DEBU] {2895abb55ff5bf175e234e1d5377d60a} [  3 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:01.506 [DEBU] {98dd874261f5bf1761234e1d1d56da9f} [  2 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:16.640 [DEBU] {802097c864f5bf1764234e1d68b83b56} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:20.095 [DEBU] {70dba99665f5bf1767234e1d4a4d4321} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:20.837 [DEBU] {0007f9c265f5bf176a234e1da91683b5} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:21.441 [DEBU] {4034efe665f5bf176d234e1d42f2bf03} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:22.712 [DEBU] {f887923266f5bf1770234e1dbe3af8ff} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:23.207 [DEBU] {d0dd325066f5bf1773234e1dbcb8dc41} [  1 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`
+2024-03-25 16:43:23.858 [DEBU] {80ed0a7766f5bf1776234e1dabe256ad} [  0 ms] [default] [sims] [rows:2  ] SELECT `ID`,`name`,`user_name`,`phone`,`email` FROM `user`

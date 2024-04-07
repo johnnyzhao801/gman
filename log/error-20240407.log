@@ -1,0 +1,81 @@
+2024-04-07 11:50:13.602 {5000314bf2e2c31731893b39f088e033} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.000, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:50:17.599 {a09a6b39f3e2c31732893b39baae27a7} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.000, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:50:39.437 {f02f0c4ff8e2c31733893b39e9947d1c} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.001, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:50:44.842 {c04a3891f9e2c31734893b3913a5e604} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.000, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:51:28.455 {c867c8b803e3c317b056aa4fd76686bc} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.000, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:51:50.234 {90d2ecca08e3c317b156aa4f50009e6b} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.000, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:53:18.377 {d893a44f1de3c317faea5b4556b314fc} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 0.016, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:54:03.986 {a8adfa491fe3c317fbea5b45ef915cc3} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 37.131, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+
+2024-04-07 11:54:50.375 {18b97cab2ee3c317fcea5b456d717df4} 500 "GET http localhost:8000 /api/user/list HTTP/1.1" 17.459, ::1, "http://localhost:5173/", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0", 68, "Internal Panic", ""
+Stack:
+1. exception recovered
+   1).  github.com/casbin/casbin/v2.(*SyncedEnforcer).Enforce
+        /Users/zhaoning/go/pkg/mod/github.com/casbin/casbin/v2@v2.50.0/enforcer_synced.go:148
+   2).  sims/internal/logic/middleware.(*sMiddleware).Auth
+        /Users/zhaoning/storage/sims/internal/logic/middleware/middleware.go:32
+2. runtime error: invalid memory address or nil pointer dereference
+

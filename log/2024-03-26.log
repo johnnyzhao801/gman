@@ -1,0 +1,84 @@
+2024-03-26 13:29:37.421 [INFO] {d0d7d9096839c0175a99cf20e12ff897} swagger ui is serving at address: http://127.0.0.1:8000/swagger/
+2024-03-26 13:29:37.421 [INFO] pid[26352]: http server started listening on [:8000]
+2024-03-26 13:29:37.422 [INFO] {d0d7d9096839c0175a99cf20e12ff897} openapi specification is serving at address: http://127.0.0.1:8000/api.json
+
+     ADDRESS    | METHOD |       ROUTE        |                         HANDLER                          |           MIDDLEWARE             
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.MiddlewareCORS           | GLOBAL MIDDLEWARE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /api.json          | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec    |                                  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | POST   | /api/system/login  | sims/internal/controller/system.(*ControllerV1).Login    | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/system/logout | sims/internal/controller/system.(*ControllerV1).Logout   | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/user/list     | sims/internal/controller/user.(*ControllerV1).UserSearch | ghttp.MiddlewareHandlerResponse  
+                |        |                    |                                                          | service.IMiddleware.Auth         
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI      | HOOK_BEFORE_SERVE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+
+2024-03-26 16:42:38.334 [INFO] pid[26352]: all servers shutdown
+2024-03-26 16:43:32.884 [INFO] pid[37338]: http server started listening on [:8000]
+2024-03-26 16:43:32.884 [INFO] {b0730522fd43c017ca325831bb712b61} swagger ui is serving at address: http://127.0.0.1:8000/swagger/
+2024-03-26 16:43:32.884 [INFO] {b0730522fd43c017ca325831bb712b61} openapi specification is serving at address: http://127.0.0.1:8000/api.json
+
+     ADDRESS    | METHOD |       ROUTE        |                         HANDLER                          |           MIDDLEWARE             
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.MiddlewareCORS           | GLOBAL MIDDLEWARE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /api.json          | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec    |                                  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | POST   | /api/system/login  | sims/internal/controller/system.(*ControllerV1).Login    | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/system/logout | sims/internal/controller/system.(*ControllerV1).Logout   | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/user/list     | sims/internal/controller/user.(*ControllerV1).UserSearch | ghttp.MiddlewareHandlerResponse  
+                |        |                    |                                                          | service.IMiddleware.Auth         
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI      | HOOK_BEFORE_SERVE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+
+2024-03-26 16:44:08.645 [INFO] pid[37338]: all servers shutdown
+2024-03-26 16:44:10.301 [INFO] pid[37379]: http server started listening on [:8000]
+2024-03-26 16:44:10.301 [INFO] {e87336d80544c017aae2ee58a420be76} swagger ui is serving at address: http://127.0.0.1:8000/swagger/
+2024-03-26 16:44:10.301 [INFO] {e87336d80544c017aae2ee58a420be76} openapi specification is serving at address: http://127.0.0.1:8000/api.json
+
+     ADDRESS    | METHOD |       ROUTE        |                         HANDLER                          |           MIDDLEWARE             
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.MiddlewareCORS           | GLOBAL MIDDLEWARE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /api.json          | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec    |                                  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | POST   | /api/system/login  | sims/internal/controller/system.(*ControllerV1).Login    | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/system/logout | sims/internal/controller/system.(*ControllerV1).Logout   | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/user/list     | sims/internal/controller/user.(*ControllerV1).UserSearch | ghttp.MiddlewareHandlerResponse  
+                |        |                    |                                                          | service.IMiddleware.Auth         
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI      | HOOK_BEFORE_SERVE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+
+2024-03-26 16:44:46.025 [INFO] pid[37379]: all servers shutdown
+2024-03-26 16:45:05.077 [INFO] pid[37845]: http server started listening on [:8000]
+2024-03-26 16:45:05.077 [INFO] {e046c1981244c017ec69bb4349403058} swagger ui is serving at address: http://127.0.0.1:8000/swagger/
+2024-03-26 16:45:05.078 [INFO] {e046c1981244c017ec69bb4349403058} openapi specification is serving at address: http://127.0.0.1:8000/api.json
+
+     ADDRESS    | METHOD |       ROUTE        |                         HANDLER                          |           MIDDLEWARE             
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.MiddlewareCORS           | GLOBAL MIDDLEWARE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /api.json          | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec    |                                  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | POST   | /api/system/login  | sims/internal/controller/system.(*ControllerV1).Login    | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/system/logout | sims/internal/controller/system.(*ControllerV1).Logout   | ghttp.MiddlewareHandlerResponse  
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | GET    | /api/user/list     | sims/internal/controller/user.(*ControllerV1).UserSearch | ghttp.MiddlewareHandlerResponse  
+                |        |                    |                                                          | service.IMiddleware.Auth         
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+  :8000,tls:443 | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI      | HOOK_BEFORE_SERVE                
+----------------|--------|--------------------|----------------------------------------------------------|----------------------------------
+
+2024-03-26 21:04:05.825 [INFO] pid[37845]: all servers shutdown
