@@ -1,4 +1,4 @@
-# GoFrame
+# GoMan
 
 <div align=center>
 
