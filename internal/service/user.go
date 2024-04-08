@@ -7,7 +7,7 @@ package service
 
 import (
 	"context"
-	userV1 "sims/api/user/v1"
+	userV1 "gman/api/user/v1"
 )
 
 type (

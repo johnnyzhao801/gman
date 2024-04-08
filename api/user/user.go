@@ -7,7 +7,7 @@ package user
 import (
 	"context"
 
-	"sims/api/user/v1"
+	"gman/api/user/v1"
 )
 
 type IUserV1 interface {

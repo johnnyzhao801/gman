@@ -2,8 +2,8 @@ package user
 
 import (
 	"context"
-	"sims/internal/service"
-	"sims/api/user/v1"
+	"gman/api/user/v1"
+	"gman/internal/service"
 )
 
 func (c *ControllerV1) UserSearch(ctx context.Context, req *v1.UserSearchReq) (res *v1.UserSearchRes, err error) {

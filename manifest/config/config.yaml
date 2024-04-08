@@ -24,7 +24,7 @@ server:
     sessionMaxAge:       "10m"              # Session有效期。默认为24小时
     sessionIdName:       "sims"      # SessionId的键名名称。默认为gfsessionid
     sessionCookieOutput: true               # Session特性开启时，是否将SessionId返回到Cookie中。默认true
-    sessionPath:         "/Users/zhaoning/storage/sims/gsessions"   # Session存储的文件目录路径。默认为当前系统临时目录下的gsessions目录
+    sessionPath:         "/Users/zhaoning/storage/gman/gsessions"   # Session存储的文件目录路径。默认为当前系统临时目录下的gsessions目录
 
   # 日志基本配置
     logPath:             ""                   # 日志文件存储目录路径，建议使用绝对路径。默认为空，表示关闭
@@ -37,7 +37,7 @@ server:
 
     # 日志扩展配置(参数日志组件配置)
     logger:
-      path:                  "/Users/zhaoning/storage/sims/log/"   # 日志文件路径。默认为空，表示关闭，仅输出到终端
+      path:                  "/Users/zhaoning/storage/gman/log/"   # 日志文件路径。默认为空，表示关闭，仅输出到终端
       file:                  "{Y-m-d}.log" # 日志文件格式。默认为"{Y-m-d}.log"
       prefix:                ""            # 日志内容输出前缀。默认为空
       level:                 "all"         # 日志输出级别
@@ -63,7 +63,7 @@ server:
     gracefulTimeout:     2                  # 父进程在平滑重启后多少秒退出，默认2秒。若请求耗时大于该值，可能会导致请求中断
 database:
   logger:
-    path:    "/Users/zhaoning/storage/sims/log/gf-app/sql"
+    path:    "/Users/zhaoning/storage/gman/log/gf-app/sql"
     level:   "all"
     stdout:  true
   default:

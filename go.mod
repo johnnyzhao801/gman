@@ -1,4 +1,4 @@
-module sims
+module gman
 
 go 1.18
 

@@ -7,7 +7,7 @@ package service
 
 import (
 	"context"
-	"sims/internal/model"
+	"gman/internal/model"
 
 	"github.com/casbin/casbin/v2"
 )

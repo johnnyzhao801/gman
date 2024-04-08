@@ -3,11 +3,11 @@ package user
 import (
 	"context"
 	"fmt"
-	"sims/internal/dao"
-	"sims/internal/service"
+	"gman/internal/dao"
+	"gman/internal/service"
 
 	"github.com/gogf/gf/v2/frame/g"
-	userV1 "sims/api/user/v1"
+	userV1 "gman/api/user/v1"
 )
 
 type (

@@ -7,7 +7,7 @@ package system
 import (
 	"context"
 
-	"sims/api/system/v1"
+	"gman/api/system/v1"
 )
 
 type ISystemV1 interface {

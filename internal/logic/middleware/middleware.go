@@ -3,8 +3,8 @@ package middleware
 import (
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
+	"gman/internal/service"
 	"net/http"
-	"sims/internal/service"
 )
 
 type (

@@ -5,7 +5,7 @@
 package logic
 
 import (
-	_ "sims/internal/logic/middleware"
-	_ "sims/internal/logic/system"
-	_ "sims/internal/logic/user"
+	_ "gman/internal/logic/middleware"
+	_ "gman/internal/logic/system"
+	_ "gman/internal/logic/user"
 )

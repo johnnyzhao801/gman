@@ -5,7 +5,7 @@
 package dao
 
 import (
-	"sims/internal/dao/internal"
+	"gman/internal/dao/internal"
 )
 
 // internalCasbinRuleDao is internal type for wrapping internal DAO implements.

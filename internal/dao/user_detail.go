@@ -5,7 +5,7 @@
 package dao
 
 import (
-	"sims/internal/dao/internal"
+	"gman/internal/dao/internal"
 )
 
 // internalUserDetailDao is internal type for wrapping internal DAO implements.

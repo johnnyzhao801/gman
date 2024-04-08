@@ -5,7 +5,7 @@
 package dao
 
 import (
-	"sims/internal/dao/internal"
+	"gman/internal/dao/internal"
 )
 
 // internalSysRoleDao is internal type for wrapping internal DAO implements.

@@ -6,9 +6,9 @@ import (
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
 	"github.com/gogf/gf/v2/os/gsession"
-	"sims/internal/controller/system"
-	"sims/internal/controller/user"
-	"sims/internal/service"
+	"gman/internal/controller/system"
+	"gman/internal/controller/user"
+	"gman/internal/service"
 )
 
 var (

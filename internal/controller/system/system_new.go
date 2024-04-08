@@ -5,7 +5,7 @@
 package system
 
 import (
-	"sims/api/system"
+	"gman/api/system"
 )
 
 type ControllerV1 struct{}

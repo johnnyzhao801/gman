@@ -6,11 +6,11 @@ import (
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
-	"sims/internal/dao"
-	"sims/internal/model"
-	"sims/internal/model/do"
-	"sims/internal/model/entity"
-	"sims/internal/service"
+	"gman/internal/dao"
+	"gman/internal/model"
+	"gman/internal/model/do"
+	"gman/internal/model/entity"
+	"gman/internal/service"
 )
 
 type (

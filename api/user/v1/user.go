@@ -5,7 +5,7 @@ import (
 )
 
 type UserSearchReq struct {
-	g.Meta `path:"/list" method:"get" summary:"系统用户列表"`
+	g.Meta `path:"/list" method:"get" tags:"用户管理" summary:"系统用户列表"`
 }
 
 type UserSearchRes struct {

@@ -5,7 +5,7 @@
 package user
 
 import (
-	"sims/api/user"
+	"gman/api/user"
 )
 
 type ControllerV1 struct{}
