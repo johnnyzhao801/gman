@@ -22,10 +22,6 @@ func New() service.IMiddleware {
 func (s *sMiddleware) Auth(r *ghttp.Request) {
 	ctx := r.Context()
 	e := service.System().GetEnforcer(ctx)
-	err := e.LoadPolicy()
-	if err != nil {
-		return
-	}
 	g.Log().Info(ctx, r.RequestURI)
 	g.Log().Info(ctx, r.Method)
 	//ok, err := e.DeletePermissionsForUser("admin")

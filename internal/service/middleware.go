@@ -11,7 +11,6 @@ import (
 
 type (
 	IMiddleware interface {
-		// Auth validates the request to allow only signed-in users visit.
 		Auth(r *ghttp.Request)
 	}
 )

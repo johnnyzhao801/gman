@@ -1,12 +1,8 @@
-// ================================================================================
-// Code generated and maintained by GoFrame CLI tool. DO NOT EDIT.
-// You can delete these comments if you wish manually maintain this interface file.
-// ================================================================================
-
 package service
 
 import (
 	"context"
+	systemV1 "gman/api/system/v1"
 	"gman/internal/model"
 
 	"github.com/casbin/casbin/v2"
@@ -15,8 +11,9 @@ import (
 type (
 	ISystem interface {
 		GetEnforcer(ctx context.Context) (en *casbin.SyncedEnforcer)
-		// SignIn creates session for given userhahah account.
+		// SignIn 登录功能
 		SignIn(ctx context.Context, in model.UserSignInInput) (err error)
+		RoleSearch(ctx context.Context) []*systemV1.RoleInfo
 	}
 )
 

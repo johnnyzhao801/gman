@@ -25,7 +25,7 @@ func New() service.ISystem {
 	return &sSystem{}
 }
 
-// SignIn creates session for given userhahah account.
+// SignIn 登录功能
 func (s *sSystem) SignIn(ctx context.Context, in model.UserSignInInput) (err error) {
 	var user *entity.SysUser
 	fmt.Println("输入的数据为：", in)
