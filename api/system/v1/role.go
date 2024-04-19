@@ -5,7 +5,7 @@ import (
 )
 
 type RoleSearchReq struct {
-	g.Meta `path:"/list" method:"get" tags:"角色管理" summary:"系统角色列表"`
+	g.Meta `path:"role/list" method:"get" tags:"角色管理" summary:"系统角色列表"`
 }
 
 type RoleSearchRes struct {
